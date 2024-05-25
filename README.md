@@ -1,0 +1,39 @@
+# 程序结构
+- mediatools（根目录）
+    - scraping
+        - `nameToSpace.py`
+        - `spaceToBV.py`
+        - `BVtoDetail.py`
+        - `multithreadingDetail.py`
+        - `main.py`
+        - `scraping_utils.py`
+        - res
+            - `*.csv`
+    - analysis
+        - `all_relevance.py`
+        - `top.py`
+        - `analysis_utils.py`
+        - `fetch_video_url.js`
+        - res
+            - pic
+                - id
+                    - `*.png`
+            - top
+                - id
+                    - `*.csv`
+                    - `*.mp3/4`
+        - feishu_minutes
+            - `aria2c.exe`
+            - `config.ini`
+            - `feishu_download.py`
+            - `feishu_upload.py`
+    - test
+        - 测试文件
+    - watching
+        - `watching_utils.py`
+        - sqls
+            - `*.sql`
+
+# TODO
+- [x] 1. 编写调用函数，调用飞书上传下载，将音频转为文字
+
